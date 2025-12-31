@@ -4,7 +4,6 @@ from utils.config import EMAIL,PASSWORD,BASE_URL
 
 @pytest.mark.order(2)
 def test_login(page):
-    # page = logged_in_page
 
     # Step 1: Open login page
     page.goto(f"{BASE_URL}/login")
