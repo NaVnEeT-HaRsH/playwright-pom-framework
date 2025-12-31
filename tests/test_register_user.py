@@ -13,7 +13,6 @@ from utils.config import (
 
 @pytest.mark.order(1)
 def test_user_can_register(page):
-    # page = logged_in_page
 
     # Step 1: Open signup page
     page.goto(f"{BASE_URL}/signup")
